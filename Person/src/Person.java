@@ -33,12 +33,13 @@ public class Person {
 	for (int i=0; i< people.size(); i++) //PEOPLE.SIZE() BETTER THAN WHILE LOOP
 	{
 	System.out.println(people.get(i)); //PEOPLE.GET(i) FOR ARRAYLIST, PEOPLE[1] FOR ARRAY
+	}  
 	}
 	
-	for(int i = 0; i<people.size(); i++){
-        if(people.get(i).getName().contains(searchName)){
-            System.out.println(people.get(i).getName() +" "+ people.get(i).getAge() +" "+ people.get(i).getJOBBBB());
-	}
+//	for(int i = 0; i<people.size(); i++){
+//        if(people.get(i).getName().contains(searchName)){
+//            System.out.println(people.get(i).getName() +" "+ people.get(i).getAge() +" "+ people.get(i).getJOBBBB());
+//	}
 	
 	public String toString() {
 		return "Name: " + name + "\nAge: " + age + "\nJob Title: " + jobTitle + "\n";
