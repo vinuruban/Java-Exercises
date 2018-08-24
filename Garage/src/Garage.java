@@ -79,13 +79,13 @@ public class Garage {
 			else
 				return "Not found";
 		}
-	return null;
+
 	}
 	
 //	public void bill(ArrayList<Vehicle> veh) {
 //		for (int i=0; i<veh.size(); i++) {
 //			veh.get(i).
-//		}
+//		}               //REMEMBER WHAT KARUN SAID. THINK LOGICALLY!
 	
 
 	
