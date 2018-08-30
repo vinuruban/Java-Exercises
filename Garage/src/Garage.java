@@ -79,6 +79,7 @@ public class Garage {
 			else
 				return "Not found";
 		}
+		return null;
 
 	}
 	
